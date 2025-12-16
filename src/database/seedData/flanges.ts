@@ -1,0 +1,211 @@
+import { FlangeSpecification } from '../types';
+
+// EN 1092-1 Flange Specifications
+export const EN1092_PN6: FlangeSpecification[] = [
+  { dn: 10, inches: 0.375, standard: 'EN1092-1', class: 'PN6', od: 75, pcd: 50, boltCount: 4, boltSize: 'M10', thickness: 8 },
+  { dn: 15, inches: 0.5, standard: 'EN1092-1', class: 'PN6', od: 80, pcd: 55, boltCount: 4, boltSize: 'M10', thickness: 8 },
+  { dn: 20, inches: 0.75, standard: 'EN1092-1', class: 'PN6', od: 90, pcd: 65, boltCount: 4, boltSize: 'M10', thickness: 9 },
+  { dn: 25, inches: 1, standard: 'EN1092-1', class: 'PN6', od: 100, pcd: 75, boltCount: 4, boltSize: 'M10', thickness: 9 },
+  { dn: 32, inches: 1.25, standard: 'EN1092-1', class: 'PN6', od: 120, pcd: 90, boltCount: 4, boltSize: 'M12', thickness: 10 },
+  { dn: 40, inches: 1.5, standard: 'EN1092-1', class: 'PN6', od: 130, pcd: 100, boltCount: 4, boltSize: 'M12', thickness: 10 },
+  { dn: 50, inches: 2, standard: 'EN1092-1', class: 'PN6', od: 140, pcd: 110, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 65, inches: 2.5, standard: 'EN1092-1', class: 'PN6', od: 160, pcd: 130, boltCount: 4, boltSize: 'M12', thickness: 12 },
+  { dn: 80, inches: 3, standard: 'EN1092-1', class: 'PN6', od: 190, pcd: 150, boltCount: 4, boltSize: 'M16', thickness: 13 },
+  { dn: 100, inches: 4, standard: 'EN1092-1', class: 'PN6', od: 210, pcd: 170, boltCount: 4, boltSize: 'M16', thickness: 14 },
+  { dn: 125, inches: 5, standard: 'EN1092-1', class: 'PN6', od: 240, pcd: 200, boltCount: 8, boltSize: 'M16', thickness: 15 },
+  { dn: 150, inches: 6, standard: 'EN1092-1', class: 'PN6', od: 265, pcd: 225, boltCount: 8, boltSize: 'M16', thickness: 16 },
+  { dn: 200, inches: 8, standard: 'EN1092-1', class: 'PN6', od: 320, pcd: 280, boltCount: 8, boltSize: 'M16', thickness: 18 },
+  { dn: 250, inches: 10, standard: 'EN1092-1', class: 'PN6', od: 375, pcd: 335, boltCount: 12, boltSize: 'M16', thickness: 20 },
+  { dn: 300, inches: 12, standard: 'EN1092-1', class: 'PN6', od: 440, pcd: 395, boltCount: 12, boltSize: 'M20', thickness: 22 },
+];
+
+export const EN1092_PN10: FlangeSpecification[] = [
+  { dn: 10, inches: 0.375, standard: 'EN1092-1', class: 'PN10', od: 90, pcd: 60, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 15, inches: 0.5, standard: 'EN1092-1', class: 'PN10', od: 95, pcd: 65, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 20, inches: 0.75, standard: 'EN1092-1', class: 'PN10', od: 105, pcd: 75, boltCount: 4, boltSize: 'M12', thickness: 12 },
+  { dn: 25, inches: 1, standard: 'EN1092-1', class: 'PN10', od: 115, pcd: 85, boltCount: 4, boltSize: 'M12', thickness: 12 },
+  { dn: 32, inches: 1.25, standard: 'EN1092-1', class: 'PN10', od: 140, pcd: 100, boltCount: 4, boltSize: 'M16', thickness: 14 },
+  { dn: 40, inches: 1.5, standard: 'EN1092-1', class: 'PN10', od: 150, pcd: 110, boltCount: 4, boltSize: 'M16', thickness: 14 },
+  { dn: 50, inches: 2, standard: 'EN1092-1', class: 'PN10', od: 165, pcd: 125, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 65, inches: 2.5, standard: 'EN1092-1', class: 'PN10', od: 185, pcd: 145, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 80, inches: 3, standard: 'EN1092-1', class: 'PN10', od: 200, pcd: 160, boltCount: 8, boltSize: 'M16', thickness: 18 },
+  { dn: 100, inches: 4, standard: 'EN1092-1', class: 'PN10', od: 220, pcd: 180, boltCount: 8, boltSize: 'M16', thickness: 18 },
+  { dn: 125, inches: 5, standard: 'EN1092-1', class: 'PN10', od: 250, pcd: 210, boltCount: 8, boltSize: 'M16', thickness: 20 },
+  { dn: 150, inches: 6, standard: 'EN1092-1', class: 'PN10', od: 285, pcd: 240, boltCount: 8, boltSize: 'M20', thickness: 20 },
+  { dn: 200, inches: 8, standard: 'EN1092-1', class: 'PN10', od: 340, pcd: 295, boltCount: 8, boltSize: 'M20', thickness: 22 },
+  { dn: 250, inches: 10, standard: 'EN1092-1', class: 'PN10', od: 395, pcd: 350, boltCount: 12, boltSize: 'M20', thickness: 24 },
+  { dn: 300, inches: 12, standard: 'EN1092-1', class: 'PN10', od: 445, pcd: 400, boltCount: 12, boltSize: 'M20', thickness: 24 },
+];
+
+export const EN1092_PN16: FlangeSpecification[] = [
+  { dn: 10, inches: 0.375, standard: 'EN1092-1', class: 'PN16', od: 90, pcd: 60, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 15, inches: 0.5, standard: 'EN1092-1', class: 'PN16', od: 95, pcd: 65, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 20, inches: 0.75, standard: 'EN1092-1', class: 'PN16', od: 105, pcd: 75, boltCount: 4, boltSize: 'M12', thickness: 12 },
+  { dn: 25, inches: 1, standard: 'EN1092-1', class: 'PN16', od: 115, pcd: 85, boltCount: 4, boltSize: 'M12', thickness: 12 },
+  { dn: 32, inches: 1.25, standard: 'EN1092-1', class: 'PN16', od: 140, pcd: 100, boltCount: 4, boltSize: 'M16', thickness: 14 },
+  { dn: 40, inches: 1.5, standard: 'EN1092-1', class: 'PN16', od: 150, pcd: 110, boltCount: 4, boltSize: 'M16', thickness: 14 },
+  { dn: 50, inches: 2, standard: 'EN1092-1', class: 'PN16', od: 165, pcd: 125, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 65, inches: 2.5, standard: 'EN1092-1', class: 'PN16', od: 185, pcd: 145, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 80, inches: 3, standard: 'EN1092-1', class: 'PN16', od: 200, pcd: 160, boltCount: 8, boltSize: 'M16', thickness: 18 },
+  { dn: 100, inches: 4, standard: 'EN1092-1', class: 'PN16', od: 220, pcd: 180, boltCount: 8, boltSize: 'M16', thickness: 20 },
+  { dn: 125, inches: 5, standard: 'EN1092-1', class: 'PN16', od: 250, pcd: 210, boltCount: 8, boltSize: 'M16', thickness: 22 },
+  { dn: 150, inches: 6, standard: 'EN1092-1', class: 'PN16', od: 285, pcd: 240, boltCount: 8, boltSize: 'M20', thickness: 22 },
+  { dn: 200, inches: 8, standard: 'EN1092-1', class: 'PN16', od: 340, pcd: 295, boltCount: 8, boltSize: 'M20', thickness: 24 },
+  { dn: 250, inches: 10, standard: 'EN1092-1', class: 'PN16', od: 395, pcd: 350, boltCount: 12, boltSize: 'M20', thickness: 26 },
+  { dn: 300, inches: 12, standard: 'EN1092-1', class: 'PN16', od: 445, pcd: 400, boltCount: 12, boltSize: 'M20', thickness: 28 },
+];
+
+export const EN1092_PN25: FlangeSpecification[] = [
+  { dn: 10, inches: 0.375, standard: 'EN1092-1', class: 'PN25', od: 90, pcd: 60, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 15, inches: 0.5, standard: 'EN1092-1', class: 'PN25', od: 95, pcd: 65, boltCount: 4, boltSize: 'M12', thickness: 11 },
+  { dn: 20, inches: 0.75, standard: 'EN1092-1', class: 'PN25', od: 105, pcd: 75, boltCount: 4, boltSize: 'M12', thickness: 14 },
+  { dn: 25, inches: 1, standard: 'EN1092-1', class: 'PN25', od: 115, pcd: 85, boltCount: 4, boltSize: 'M12', thickness: 14 },
+  { dn: 32, inches: 1.25, standard: 'EN1092-1', class: 'PN25', od: 140, pcd: 100, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 40, inches: 1.5, standard: 'EN1092-1', class: 'PN25', od: 150, pcd: 110, boltCount: 4, boltSize: 'M16', thickness: 16 },
+  { dn: 50, inches: 2, standard: 'EN1092-1', class: 'PN25', od: 165, pcd: 125, boltCount: 4, boltSize: 'M16', thickness: 18 },
+  { dn: 65, inches: 2.5, standard: 'EN1092-1', class: 'PN25', od: 185, pcd: 145, boltCount: 8, boltSize: 'M16', thickness: 18 },
+  { dn: 80, inches: 3, standard: 'EN1092-1', class: 'PN25', od: 200, pcd: 160, boltCount: 8, boltSize: 'M16', thickness: 20 },
+  { dn: 100, inches: 4, standard: 'EN1092-1', class: 'PN25', od: 235, pcd: 190, boltCount: 8, boltSize: 'M20', thickness: 22 },
+  { dn: 125, inches: 5, standard: 'EN1092-1', class: 'PN25', od: 270, pcd: 220, boltCount: 8, boltSize: 'M24', thickness: 24 },
+  { dn: 150, inches: 6, standard: 'EN1092-1', class: 'PN25', od: 300, pcd: 250, boltCount: 8, boltSize: 'M24', thickness: 24 },
+  { dn: 200, inches: 8, standard: 'EN1092-1', class: 'PN25', od: 360, pcd: 310, boltCount: 12, boltSize: 'M24', thickness: 26 },
+  { dn: 250, inches: 10, standard: 'EN1092-1', class: 'PN25', od: 425, pcd: 370, boltCount: 12, boltSize: 'M27', thickness: 28 },
+  { dn: 300, inches: 12, standard: 'EN1092-1', class: 'PN25', od: 485, pcd: 430, boltCount: 12, boltSize: 'M27', thickness: 30 },
+];
+
+export const EN1092_PN40: FlangeSpecification[] = [
+  { dn: 10, inches: 0.375, standard: 'EN1092-1', class: 'PN40', od: 90, pcd: 60, boltCount: 4, boltSize: 'M12', thickness: 14 },
+  { dn: 15, inches: 0.5, standard: 'EN1092-1', class: 'PN40', od: 95, pcd: 65, boltCount: 4, boltSize: 'M12', thickness: 14 },
+  { dn: 20, inches: 0.75, standard: 'EN1092-1', class: 'PN40', od: 105, pcd: 75, boltCount: 4, boltSize: 'M12', thickness: 16 },
+  { dn: 25, inches: 1, standard: 'EN1092-1', class: 'PN40', od: 115, pcd: 85, boltCount: 4, boltSize: 'M12', thickness: 16 },
+  { dn: 32, inches: 1.25, standard: 'EN1092-1', class: 'PN40', od: 140, pcd: 100, boltCount: 4, boltSize: 'M16', thickness: 18 },
+  { dn: 40, inches: 1.5, standard: 'EN1092-1', class: 'PN40', od: 150, pcd: 110, boltCount: 4, boltSize: 'M16', thickness: 18 },
+  { dn: 50, inches: 2, standard: 'EN1092-1', class: 'PN40', od: 165, pcd: 125, boltCount: 4, boltSize: 'M16', thickness: 20 },
+  { dn: 65, inches: 2.5, standard: 'EN1092-1', class: 'PN40', od: 185, pcd: 145, boltCount: 8, boltSize: 'M16', thickness: 22 },
+  { dn: 80, inches: 3, standard: 'EN1092-1', class: 'PN40', od: 200, pcd: 160, boltCount: 8, boltSize: 'M16', thickness: 24 },
+  { dn: 100, inches: 4, standard: 'EN1092-1', class: 'PN40', od: 235, pcd: 190, boltCount: 8, boltSize: 'M20', thickness: 24 },
+  { dn: 125, inches: 5, standard: 'EN1092-1', class: 'PN40', od: 270, pcd: 220, boltCount: 8, boltSize: 'M24', thickness: 26 },
+  { dn: 150, inches: 6, standard: 'EN1092-1', class: 'PN40', od: 300, pcd: 250, boltCount: 8, boltSize: 'M24', thickness: 28 },
+  { dn: 200, inches: 8, standard: 'EN1092-1', class: 'PN40', od: 375, pcd: 320, boltCount: 12, boltSize: 'M27', thickness: 32 },
+  { dn: 250, inches: 10, standard: 'EN1092-1', class: 'PN40', od: 450, pcd: 385, boltCount: 12, boltSize: 'M33', thickness: 38 },
+  { dn: 300, inches: 12, standard: 'EN1092-1', class: 'PN40', od: 515, pcd: 450, boltCount: 16, boltSize: 'M33', thickness: 42 },
+];
+
+// BS 10 Flange Specifications
+export const BS10_TABLE_D: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'BS10', class: 'Table D', od: 80, pcd: 52, boltCount: 4, boltSize: '1/2"', thickness: 9 },
+  { dn: 20, inches: 0.75, standard: 'BS10', class: 'Table D', od: 90, pcd: 62, boltCount: 4, boltSize: '1/2"', thickness: 10 },
+  { dn: 25, inches: 1, standard: 'BS10', class: 'Table D', od: 100, pcd: 70, boltCount: 4, boltSize: '1/2"', thickness: 11 },
+  { dn: 32, inches: 1.25, standard: 'BS10', class: 'Table D', od: 115, pcd: 84, boltCount: 4, boltSize: '1/2"', thickness: 11 },
+  { dn: 40, inches: 1.5, standard: 'BS10', class: 'Table D', od: 125, pcd: 92, boltCount: 4, boltSize: '5/8"', thickness: 13 },
+  { dn: 50, inches: 2, standard: 'BS10', class: 'Table D', od: 135, pcd: 102, boltCount: 4, boltSize: '5/8"', thickness: 14 },
+  { dn: 65, inches: 2.5, standard: 'BS10', class: 'Table D', od: 160, pcd: 122, boltCount: 4, boltSize: '5/8"', thickness: 16 },
+  { dn: 80, inches: 3, standard: 'BS10', class: 'Table D', od: 180, pcd: 138, boltCount: 4, boltSize: '5/8"', thickness: 17 },
+  { dn: 100, inches: 4, standard: 'BS10', class: 'Table D', od: 200, pcd: 158, boltCount: 8, boltSize: '5/8"', thickness: 17 },
+  { dn: 125, inches: 5, standard: 'BS10', class: 'Table D', od: 235, pcd: 188, boltCount: 8, boltSize: '3/4"', thickness: 19 },
+  { dn: 150, inches: 6, standard: 'BS10', class: 'Table D', od: 265, pcd: 212, boltCount: 8, boltSize: '3/4"', thickness: 21 },
+  { dn: 200, inches: 8, standard: 'BS10', class: 'Table D', od: 320, pcd: 268, boltCount: 8, boltSize: '3/4"', thickness: 23 },
+  { dn: 250, inches: 10, standard: 'BS10', class: 'Table D', od: 385, pcd: 320, boltCount: 12, boltSize: '7/8"', thickness: 25 },
+  { dn: 300, inches: 12, standard: 'BS10', class: 'Table D', od: 430, pcd: 365, boltCount: 12, boltSize: '7/8"', thickness: 27 },
+];
+
+export const BS10_TABLE_E: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'BS10', class: 'Table E', od: 80, pcd: 52, boltCount: 4, boltSize: '1/2"', thickness: 11 },
+  { dn: 20, inches: 0.75, standard: 'BS10', class: 'Table E', od: 90, pcd: 62, boltCount: 4, boltSize: '1/2"', thickness: 13 },
+  { dn: 25, inches: 1, standard: 'BS10', class: 'Table E', od: 100, pcd: 70, boltCount: 4, boltSize: '1/2"', thickness: 14 },
+  { dn: 32, inches: 1.25, standard: 'BS10', class: 'Table E', od: 115, pcd: 84, boltCount: 4, boltSize: '1/2"', thickness: 14 },
+  { dn: 40, inches: 1.5, standard: 'BS10', class: 'Table E', od: 125, pcd: 92, boltCount: 4, boltSize: '5/8"', thickness: 16 },
+  { dn: 50, inches: 2, standard: 'BS10', class: 'Table E', od: 135, pcd: 102, boltCount: 4, boltSize: '5/8"', thickness: 17 },
+  { dn: 65, inches: 2.5, standard: 'BS10', class: 'Table E', od: 160, pcd: 122, boltCount: 4, boltSize: '5/8"', thickness: 19 },
+  { dn: 80, inches: 3, standard: 'BS10', class: 'Table E', od: 180, pcd: 138, boltCount: 8, boltSize: '5/8"', thickness: 21 },
+  { dn: 100, inches: 4, standard: 'BS10', class: 'Table E', od: 200, pcd: 158, boltCount: 8, boltSize: '5/8"', thickness: 22 },
+  { dn: 125, inches: 5, standard: 'BS10', class: 'Table E', od: 235, pcd: 188, boltCount: 8, boltSize: '3/4"', thickness: 24 },
+  { dn: 150, inches: 6, standard: 'BS10', class: 'Table E', od: 265, pcd: 212, boltCount: 12, boltSize: '3/4"', thickness: 25 },
+  { dn: 200, inches: 8, standard: 'BS10', class: 'Table E', od: 320, pcd: 268, boltCount: 12, boltSize: '3/4"', thickness: 27 },
+  { dn: 250, inches: 10, standard: 'BS10', class: 'Table E', od: 385, pcd: 320, boltCount: 12, boltSize: '7/8"', thickness: 30 },
+  { dn: 300, inches: 12, standard: 'BS10', class: 'Table E', od: 430, pcd: 365, boltCount: 16, boltSize: '7/8"', thickness: 32 },
+];
+
+export const BS10_TABLE_F: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'BS10', class: 'Table F', od: 80, pcd: 52, boltCount: 4, boltSize: '1/2"', thickness: 13 },
+  { dn: 20, inches: 0.75, standard: 'BS10', class: 'Table F', od: 90, pcd: 62, boltCount: 4, boltSize: '1/2"', thickness: 14 },
+  { dn: 25, inches: 1, standard: 'BS10', class: 'Table F', od: 100, pcd: 70, boltCount: 4, boltSize: '1/2"', thickness: 16 },
+  { dn: 32, inches: 1.25, standard: 'BS10', class: 'Table F', od: 115, pcd: 84, boltCount: 4, boltSize: '1/2"', thickness: 17 },
+  { dn: 40, inches: 1.5, standard: 'BS10', class: 'Table F', od: 125, pcd: 92, boltCount: 4, boltSize: '5/8"', thickness: 19 },
+  { dn: 50, inches: 2, standard: 'BS10', class: 'Table F', od: 135, pcd: 102, boltCount: 4, boltSize: '5/8"', thickness: 21 },
+  { dn: 65, inches: 2.5, standard: 'BS10', class: 'Table F', od: 160, pcd: 122, boltCount: 8, boltSize: '5/8"', thickness: 22 },
+  { dn: 80, inches: 3, standard: 'BS10', class: 'Table F', od: 180, pcd: 138, boltCount: 8, boltSize: '5/8"', thickness: 24 },
+  { dn: 100, inches: 4, standard: 'BS10', class: 'Table F', od: 220, pcd: 172, boltCount: 8, boltSize: '3/4"', thickness: 25 },
+  { dn: 125, inches: 5, standard: 'BS10', class: 'Table F', od: 250, pcd: 202, boltCount: 8, boltSize: '7/8"', thickness: 27 },
+  { dn: 150, inches: 6, standard: 'BS10', class: 'Table F', od: 285, pcd: 232, boltCount: 12, boltSize: '7/8"', thickness: 29 },
+  { dn: 200, inches: 8, standard: 'BS10', class: 'Table F', od: 345, pcd: 292, boltCount: 12, boltSize: '7/8"', thickness: 32 },
+  { dn: 250, inches: 10, standard: 'BS10', class: 'Table F', od: 415, pcd: 352, boltCount: 16, boltSize: '1"', thickness: 35 },
+  { dn: 300, inches: 12, standard: 'BS10', class: 'Table F', od: 470, pcd: 410, boltCount: 16, boltSize: '1"', thickness: 38 },
+];
+
+export const BS10_TABLE_H: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'BS10', class: 'Table H', od: 80, pcd: 52, boltCount: 4, boltSize: '1/2"', thickness: 16 },
+  { dn: 20, inches: 0.75, standard: 'BS10', class: 'Table H', od: 90, pcd: 62, boltCount: 4, boltSize: '1/2"', thickness: 17 },
+  { dn: 25, inches: 1, standard: 'BS10', class: 'Table H', od: 100, pcd: 70, boltCount: 4, boltSize: '1/2"', thickness: 19 },
+  { dn: 32, inches: 1.25, standard: 'BS10', class: 'Table H', od: 115, pcd: 84, boltCount: 4, boltSize: '1/2"', thickness: 21 },
+  { dn: 40, inches: 1.5, standard: 'BS10', class: 'Table H', od: 125, pcd: 92, boltCount: 4, boltSize: '5/8"', thickness: 22 },
+  { dn: 50, inches: 2, standard: 'BS10', class: 'Table H', od: 135, pcd: 102, boltCount: 4, boltSize: '5/8"', thickness: 24 },
+  { dn: 65, inches: 2.5, standard: 'BS10', class: 'Table H', od: 160, pcd: 122, boltCount: 8, boltSize: '5/8"', thickness: 27 },
+  { dn: 80, inches: 3, standard: 'BS10', class: 'Table H', od: 190, pcd: 148, boltCount: 8, boltSize: '3/4"', thickness: 29 },
+  { dn: 100, inches: 4, standard: 'BS10', class: 'Table H', od: 230, pcd: 182, boltCount: 8, boltSize: '7/8"', thickness: 32 },
+  { dn: 125, inches: 5, standard: 'BS10', class: 'Table H', od: 270, pcd: 218, boltCount: 8, boltSize: '1"', thickness: 35 },
+  { dn: 150, inches: 6, standard: 'BS10', class: 'Table H', od: 300, pcd: 248, boltCount: 12, boltSize: '1"', thickness: 38 },
+  { dn: 200, inches: 8, standard: 'BS10', class: 'Table H', od: 375, pcd: 312, boltCount: 12, boltSize: '1-1/8"', thickness: 44 },
+  { dn: 250, inches: 10, standard: 'BS10', class: 'Table H', od: 450, pcd: 378, boltCount: 16, boltSize: '1-1/4"', thickness: 51 },
+  { dn: 300, inches: 12, standard: 'BS10', class: 'Table H', od: 515, pcd: 438, boltCount: 16, boltSize: '1-3/8"', thickness: 57 },
+];
+
+// ASME B16.5 Flange Specifications
+export const ASME_CLASS_150: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'ASME-B16.5', class: 'Class 150', od: 88.9, pcd: 60.3, boltCount: 4, boltSize: '1/2"', thickness: 11.1 },
+  { dn: 20, inches: 0.75, standard: 'ASME-B16.5', class: 'Class 150', od: 98.4, pcd: 69.9, boltCount: 4, boltSize: '1/2"', thickness: 12.7 },
+  { dn: 25, inches: 1, standard: 'ASME-B16.5', class: 'Class 150', od: 108, pcd: 79.4, boltCount: 4, boltSize: '1/2"', thickness: 14.3 },
+  { dn: 32, inches: 1.25, standard: 'ASME-B16.5', class: 'Class 150', od: 117.5, pcd: 88.9, boltCount: 4, boltSize: '1/2"', thickness: 15.9 },
+  { dn: 40, inches: 1.5, standard: 'ASME-B16.5', class: 'Class 150', od: 127, pcd: 98.4, boltCount: 4, boltSize: '1/2"', thickness: 17.5 },
+  { dn: 50, inches: 2, standard: 'ASME-B16.5', class: 'Class 150', od: 152.4, pcd: 120.7, boltCount: 4, boltSize: '5/8"', thickness: 19.1 },
+  { dn: 65, inches: 2.5, standard: 'ASME-B16.5', class: 'Class 150', od: 177.8, pcd: 139.7, boltCount: 4, boltSize: '5/8"', thickness: 22.2 },
+  { dn: 80, inches: 3, standard: 'ASME-B16.5', class: 'Class 150', od: 190.5, pcd: 152.4, boltCount: 4, boltSize: '5/8"', thickness: 23.8 },
+  { dn: 100, inches: 4, standard: 'ASME-B16.5', class: 'Class 150', od: 228.6, pcd: 190.5, boltCount: 8, boltSize: '5/8"', thickness: 23.8 },
+  { dn: 125, inches: 5, standard: 'ASME-B16.5', class: 'Class 150', od: 254, pcd: 215.9, boltCount: 8, boltSize: '3/4"', thickness: 23.8 },
+  { dn: 150, inches: 6, standard: 'ASME-B16.5', class: 'Class 150', od: 279.4, pcd: 241.3, boltCount: 8, boltSize: '3/4"', thickness: 25.4 },
+  { dn: 200, inches: 8, standard: 'ASME-B16.5', class: 'Class 150', od: 342.9, pcd: 298.5, boltCount: 8, boltSize: '3/4"', thickness: 28.6 },
+  { dn: 250, inches: 10, standard: 'ASME-B16.5', class: 'Class 150', od: 406.4, pcd: 362, boltCount: 12, boltSize: '7/8"', thickness: 30.2 },
+  { dn: 300, inches: 12, standard: 'ASME-B16.5', class: 'Class 150', od: 482.6, pcd: 431.8, boltCount: 12, boltSize: '7/8"', thickness: 31.8 },
+];
+
+export const ASME_CLASS_300: FlangeSpecification[] = [
+  { dn: 15, inches: 0.5, standard: 'ASME-B16.5', class: 'Class 300', od: 95.3, pcd: 66.7, boltCount: 4, boltSize: '5/8"', thickness: 14.3 },
+  { dn: 20, inches: 0.75, standard: 'ASME-B16.5', class: 'Class 300', od: 117.5, pcd: 82.6, boltCount: 4, boltSize: '5/8"', thickness: 15.9 },
+  { dn: 25, inches: 1, standard: 'ASME-B16.5', class: 'Class 300', od: 123.8, pcd: 88.9, boltCount: 4, boltSize: '5/8"', thickness: 17.5 },
+  { dn: 32, inches: 1.25, standard: 'ASME-B16.5', class: 'Class 300', od: 133.4, pcd: 98.4, boltCount: 4, boltSize: '5/8"', thickness: 19.1 },
+  { dn: 40, inches: 1.5, standard: 'ASME-B16.5', class: 'Class 300', od: 155.6, pcd: 114.3, boltCount: 4, boltSize: '3/4"', thickness: 20.6 },
+  { dn: 50, inches: 2, standard: 'ASME-B16.5', class: 'Class 300', od: 165.1, pcd: 127, boltCount: 8, boltSize: '5/8"', thickness: 22.2 },
+  { dn: 65, inches: 2.5, standard: 'ASME-B16.5', class: 'Class 300', od: 190.5, pcd: 149.2, boltCount: 8, boltSize: '3/4"', thickness: 25.4 },
+  { dn: 80, inches: 3, standard: 'ASME-B16.5', class: 'Class 300', od: 209.6, pcd: 168.3, boltCount: 8, boltSize: '3/4"', thickness: 28.6 },
+  { dn: 100, inches: 4, standard: 'ASME-B16.5', class: 'Class 300', od: 254, pcd: 200, boltCount: 8, boltSize: '7/8"', thickness: 31.8 },
+  { dn: 125, inches: 5, standard: 'ASME-B16.5', class: 'Class 300', od: 279.4, pcd: 235, boltCount: 8, boltSize: '7/8"', thickness: 35.1 },
+  { dn: 150, inches: 6, standard: 'ASME-B16.5', class: 'Class 300', od: 317.5, pcd: 269.9, boltCount: 12, boltSize: '7/8"', thickness: 36.5 },
+  { dn: 200, inches: 8, standard: 'ASME-B16.5', class: 'Class 300', od: 381, pcd: 330.2, boltCount: 12, boltSize: '1"', thickness: 41.3 },
+  { dn: 250, inches: 10, standard: 'ASME-B16.5', class: 'Class 300', od: 444.5, pcd: 387.4, boltCount: 16, boltSize: '1-1/8"', thickness: 47.6 },
+  { dn: 300, inches: 12, standard: 'ASME-B16.5', class: 'Class 300', od: 520.7, pcd: 450.9, boltCount: 16, boltSize: '1-1/4"', thickness: 50.8 },
+];
+
+// Export all flange data
+export const ALL_FLANGE_DATA: FlangeSpecification[] = [
+  ...EN1092_PN6,
+  ...EN1092_PN10,
+  ...EN1092_PN16,
+  ...EN1092_PN25,
+  ...EN1092_PN40,
+  ...BS10_TABLE_D,
+  ...BS10_TABLE_E,
+  ...BS10_TABLE_F,
+  ...BS10_TABLE_H,
+  ...ASME_CLASS_150,
+  ...ASME_CLASS_300,
+];

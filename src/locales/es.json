@@ -1,0 +1,226 @@
+{
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "error": "Error",
+    "success": "Éxito",
+    "optional": "opcional"
+  },
+  "language": {
+    "title": "Seleccionar Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "changeLanguage": "Cambiar Idioma"
+  },
+  "home": {
+    "title": "Ayudante de Bolsillo para Ingeniería",
+    "welcome": "Bienvenido"
+  },
+  "unitConverter": {
+    "title": "Conversor de Unidades",
+    "from": "De",
+    "to": "A",
+    "value": "Valor",
+    "result": "Resultado",
+    "category": "Categoría",
+    "selectCategory": "Seleccione una categoría",
+    "selectUnit": "Seleccione una unidad",
+    "enterValue": "Ingrese un valor",
+    "categories": {
+      "length": "Longitud",
+      "area": "Área",
+      "volume": "Volumen",
+      "mass": "Masa",
+      "force": "Fuerza",
+      "temperature": "Temperatura",
+      "pressure": "Presión",
+      "power": "Potencia",
+      "energy": "Energía",
+      "time": "Tiempo",
+      "viscosity": "Viscosidad"
+    }
+  },
+  "drillTable": {
+    "title": "Tablas de Brocas y Roscado",
+    "threadStandard": "Estándar de Rosca",
+    "threadSize": "Tamaño de Rosca",
+    "selectStandard": "Seleccione un estándar de rosca",
+    "pitch": "Paso",
+    "tapDrillSize": "Tamaño de Broca",
+    "metric": "Métrico",
+    "imperial": "Imperial",
+    "noData": "No hay especificaciones de brocas disponibles",
+    "standards": {
+      "metric-coarse": "Métrico Grueso",
+      "metric-fine": "Métrico Fino",
+      "unc": "UNC (Unificado Nacional Grueso)",
+      "unf": "UNF (Unificado Nacional Fino)",
+      "bsw": "BSW (Whitworth Estándar Británico)",
+      "bsf": "BSF (Fino Estándar Británico)",
+      "bsp": "BSP (Tubería Estándar Británico)",
+      "ba": "BA (Asociación Británica)"
+    }
+  },
+  "flange": {
+    "title": "Base de Datos de Bridas",
+    "lookup": "Búsqueda de Bridas",
+    "pcdSearch": "Búsqueda por PCD",
+    "standard": "Norma",
+    "class": "Clase",
+    "dn": "DN",
+    "od": "Diámetro Exterior",
+    "pcd": "PCD",
+    "boltCount": "Cantidad de Pernos",
+    "boltSize": "Tamaño de Perno",
+    "thickness": "Espesor",
+    "pcdInput": "PCD Medido (mm)",
+    "pcdPlaceholder": "Ingrese valor de PCD",
+    "tolerance": "Tolerancia (mm)",
+    "search": "Buscar",
+    "resultsFound": "Resultados encontrados",
+    "noResult": "No se encontró brida",
+    "noMatches": "No se encontraron bridas coincidentes"
+  },
+  "torqueCalculator": {
+    "title": "Calculadora de Torque",
+    "boltSize": "Tamaño de Perno",
+    "boltGrade": "Grado de Perno",
+    "lubricationCondition": "Condición de Lubricación",
+    "recommendedTorque": "Torque Recomendado",
+    "range": "Rango (±10%)",
+    "infoNote": "Nota: Estos son valores recomendados. Siempre consulte las especificaciones del fabricante y las normas aplicables para aplicaciones críticas.",
+    "lubrication": {
+      "dry": "Seco (Sin Lubricación)",
+      "lubricated": "Lubricado (Aceite)",
+      "anti-seize": "Compuesto Anti-Gripante"
+    }
+  },
+  "offsetCalculator": {
+    "title": "Calculadora de Desviaciones de Tubería",
+    "offsetDistance": "Distancia de Desviación",
+    "angle": "Ángulo",
+    "pipeDiameter": "Diámetro de Tubería",
+    "results": "Dimensiones Calculadas",
+    "diagram": "Diagrama de Desviación",
+    "placeholders": {
+      "offsetDistance": "Ingrese distancia de desviación",
+      "pipeDiameter": "Ingrese diámetro de tubería (opcional)"
+    },
+    "resultLabels": {
+      "travel": "Recorrido",
+      "rise": "Elevación",
+      "run": "Avance",
+      "cutLength": "Longitud de Corte"
+    },
+    "diagramLabels": {
+      "travel": "Recorrido",
+      "rise": "Elevación",
+      "run": "Avance",
+      "angle": "Ángulo"
+    },
+    "errors": {
+      "invalidOffset": "Distancia de desviación inválida. Debe ser un número positivo.",
+      "invalidDiameter": "Diámetro de tubería inválido. Debe ser un número no negativo."
+    },
+    "infoNote": "Nota: Todas las medidas están en las mismas unidades que su entrada. Cuando se especifica el diámetro de tubería, los cálculos consideran medidas de centro a centro."
+  },
+  "offset": {
+    "title": "Calculadora de Desviaciones",
+    "angle": "Ángulo",
+    "distance": "Distancia"
+  },
+  "photo": {
+    "title": "Anotación de Fotos",
+    "takePhoto": "Tomar Foto",
+    "selectPhoto": "Seleccionar Foto"
+  },
+  "tasks": {
+    "title": "Lista de Tareas",
+    "addTask": "Agregar Tarea",
+    "noTasks": "No hay tareas aún",
+    "taskPlaceholder": "Ingrese descripción de la tarea",
+    "editTask": "Editar Tarea",
+    "deleteTask": "Eliminar Tarea",
+    "confirmDelete": "¿Está seguro de que desea eliminar esta tarea?",
+    "taskAdded": "Tarea agregada exitosamente",
+    "taskUpdated": "Tarea actualizada exitosamente",
+    "taskDeleted": "Tarea eliminada exitosamente",
+    "emptyDescription": "La descripción de la tarea no puede estar vacía"
+  },
+  "stickyNote": {
+    "title": "Notas Rápidas",
+    "newNote": "Nueva Nota"
+  },
+  "voiceNote": {
+    "title": "Notas de Voz",
+    "record": "Grabar",
+    "stop": "Detener"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "appearance": "Apariencia"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "auto": "Automático (Sistema)"
+  },
+  "errors": {
+    "invalidInput": "Entrada inválida",
+    "notFound": "No encontrado",
+    "storageError": "Error de almacenamiento",
+    "permissionDenied": "Permiso denegado",
+    "calculationFailed": "Falló el cálculo",
+    "networkError": "Error de conexión de red",
+    "databaseError": "Ocurrió un error de base de datos",
+    "fileSystemError": "Error del sistema de archivos",
+    "insufficientStorage": "Espacio de almacenamiento insuficiente",
+    "cameraAccessDenied": "Acceso a la cámara denegado. Por favor habilite los permisos de cámara en la configuración.",
+    "microphoneAccessDenied": "Acceso al micrófono denegado. Por favor habilite los permisos de micrófono en la configuración.",
+    "invalidNumericInput": "Por favor ingrese un número válido",
+    "valueOutOfRange": "El valor está fuera del rango aceptable",
+    "missingRequiredField": "Falta un campo requerido",
+    "dataCorrupted": "El archivo de datos está corrupto",
+    "operationFailed": "La operación falló. Por favor intente nuevamente.",
+    "unexpectedError": "Ocurrió un error inesperado",
+    "saveFailed": "Error al guardar datos",
+    "loadFailed": "Error al cargar datos",
+    "deleteFailed": "Error al eliminar elemento",
+    "updateFailed": "Error al actualizar elemento",
+    "exportFailed": "Error al exportar archivo",
+    "importFailed": "Error al importar archivo"
+  },
+  "errorDisplay": {
+    "retry": "Intentar Nuevamente",
+    "dismiss": "Descartar",
+    "details": "Mostrar Detalles",
+    "hideDetails": "Ocultar Detalles"
+  },
+  "validation": {
+    "required": "Este campo es requerido",
+    "invalidNumber": "Por favor ingrese un número válido",
+    "invalidEmail": "Por favor ingrese un correo electrónico válido",
+    "minValue": "El valor debe ser al menos {{min}}",
+    "maxValue": "El valor debe ser como máximo {{max}}",
+    "positiveNumber": "El valor debe ser un número positivo",
+    "nonNegativeNumber": "El valor debe ser cero o mayor",
+    "invalidFormat": "Formato inválido",
+    "tooShort": "La entrada es demasiado corta",
+    "tooLong": "La entrada es demasiado larga"
+  },
+  "loading": {
+    "pleaseWait": "Por favor espere...",
+    "loading": "Cargando",
+    "saving": "Guardando...",
+    "deleting": "Eliminando...",
+    "processing": "Procesando...",
+    "uploading": "Subiendo...",
+    "downloading": "Descargando..."
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "error": "Error",
+    "success": "Success",
+    "optional": "optional"
+  },
+  "language": {
+    "title": "Select Language",
+    "english": "English",
+    "spanish": "Spanish",
+    "changeLanguage": "Change Language"
+  },
+  "home": {
+    "title": "Engineering Pocket Helper",
+    "welcome": "Welcome"
+  },
+  "unitConverter": {
+    "title": "Unit Converter",
+    "from": "From",
+    "to": "To",
+    "value": "Value",
+    "result": "Result",
+    "category": "Category",
+    "selectCategory": "Select a category",
+    "selectUnit": "Select a unit",
+    "enterValue": "Enter a value",
+    "categories": {
+      "length": "Length",
+      "area": "Area",
+      "volume": "Volume",
+      "mass": "Mass",
+      "force": "Force",
+      "temperature": "Temperature",
+      "pressure": "Pressure",
+      "power": "Power",
+      "energy": "Energy",
+      "time": "Time",
+      "viscosity": "Viscosity"
+    }
+  },
+  "drillTable": {
+    "title": "Drill & Threading Tables",
+    "threadStandard": "Thread Standard",
+    "threadSize": "Thread Size",
+    "selectStandard": "Select a thread standard",
+    "pitch": "Pitch",
+    "tapDrillSize": "Tap Drill Size",
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "noData": "No drill specifications available",
+    "standards": {
+      "metric-coarse": "Metric Coarse",
+      "metric-fine": "Metric Fine",
+      "unc": "UNC (Unified National Coarse)",
+      "unf": "UNF (Unified National Fine)",
+      "bsw": "BSW (British Standard Whitworth)",
+      "bsf": "BSF (British Standard Fine)",
+      "bsp": "BSP (British Standard Pipe)",
+      "ba": "BA (British Association)"
+    }
+  },
+  "flange": {
+    "title": "Flange Database",
+    "lookup": "Flange Lookup",
+    "pcdSearch": "PCD Search",
+    "standard": "Standard",
+    "class": "Class",
+    "dn": "DN",
+    "od": "Outer Diameter",
+    "pcd": "PCD",
+    "boltCount": "Bolt Count",
+    "boltSize": "Bolt Size",
+    "thickness": "Thickness",
+    "pcdInput": "Measured PCD (mm)",
+    "pcdPlaceholder": "Enter PCD value",
+    "tolerance": "Tolerance (mm)",
+    "search": "Search",
+    "resultsFound": "Results found",
+    "noResult": "No flange found",
+    "noMatches": "No matching flanges found"
+  },
+  "torqueCalculator": {
+    "title": "Torque Calculator",
+    "boltSize": "Bolt Size",
+    "boltGrade": "Bolt Grade",
+    "lubricationCondition": "Lubrication Condition",
+    "recommendedTorque": "Recommended Torque",
+    "range": "Range (±10%)",
+    "infoNote": "Note: These are recommended values. Always consult manufacturer specifications and applicable standards for critical applications.",
+    "lubrication": {
+      "dry": "Dry (No Lubrication)",
+      "lubricated": "Lubricated (Oil)",
+      "anti-seize": "Anti-Seize Compound"
+    }
+  },
+  "offsetCalculator": {
+    "title": "Pipe Offset Calculator",
+    "offsetDistance": "Offset Distance",
+    "angle": "Angle",
+    "pipeDiameter": "Pipe Diameter",
+    "results": "Calculated Dimensions",
+    "diagram": "Offset Diagram",
+    "placeholders": {
+      "offsetDistance": "Enter offset distance",
+      "pipeDiameter": "Enter pipe diameter (optional)"
+    },
+    "resultLabels": {
+      "travel": "Travel",
+      "rise": "Rise",
+      "run": "Run",
+      "cutLength": "Cut Length"
+    },
+    "diagramLabels": {
+      "travel": "Travel",
+      "rise": "Rise",
+      "run": "Run",
+      "angle": "Angle"
+    },
+    "errors": {
+      "invalidOffset": "Invalid offset distance. Must be a positive number.",
+      "invalidDiameter": "Invalid pipe diameter. Must be a non-negative number."
+    },
+    "infoNote": "Note: All measurements are in the same units as your input. When pipe diameter is specified, calculations account for center-to-center measurements."
+  },
+  "offset": {
+    "title": "Offset Calculator",
+    "angle": "Angle",
+    "distance": "Distance"
+  },
+  "photo": {
+    "title": "Photo Annotation",
+    "takePhoto": "Take Photo",
+    "selectPhoto": "Select Photo"
+  },
+  "tasks": {
+    "title": "Task List",
+    "addTask": "Add Task",
+    "noTasks": "No tasks yet",
+    "taskPlaceholder": "Enter task description",
+    "editTask": "Edit Task",
+    "deleteTask": "Delete Task",
+    "confirmDelete": "Are you sure you want to delete this task?",
+    "taskAdded": "Task added successfully",
+    "taskUpdated": "Task updated successfully",
+    "taskDeleted": "Task deleted successfully",
+    "emptyDescription": "Task description cannot be empty"
+  },
+  "stickyNote": {
+    "title": "Sticky Notes",
+    "newNote": "New Note"
+  },
+  "voiceNote": {
+    "title": "Voice Notes",
+    "record": "Record",
+    "stop": "Stop"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "appearance": "Appearance"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto (System)"
+  },
+  "errors": {
+    "invalidInput": "Invalid input",
+    "notFound": "Not found",
+    "storageError": "Storage error",
+    "permissionDenied": "Permission denied",
+    "calculationFailed": "Calculation failed",
+    "networkError": "Network connection error",
+    "databaseError": "Database error occurred",
+    "fileSystemError": "File system error",
+    "insufficientStorage": "Insufficient storage space",
+    "cameraAccessDenied": "Camera access denied. Please enable camera permissions in settings.",
+    "microphoneAccessDenied": "Microphone access denied. Please enable microphone permissions in settings.",
+    "invalidNumericInput": "Please enter a valid number",
+    "valueOutOfRange": "Value is out of acceptable range",
+    "missingRequiredField": "Required field is missing",
+    "dataCorrupted": "Data file is corrupted",
+    "operationFailed": "Operation failed. Please try again.",
+    "unexpectedError": "An unexpected error occurred",
+    "saveFailed": "Failed to save data",
+    "loadFailed": "Failed to load data",
+    "deleteFailed": "Failed to delete item",
+    "updateFailed": "Failed to update item",
+    "exportFailed": "Failed to export file",
+    "importFailed": "Failed to import file"
+  },
+  "errorDisplay": {
+    "retry": "Try Again",
+    "dismiss": "Dismiss",
+    "details": "Show Details",
+    "hideDetails": "Hide Details"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidNumber": "Please enter a valid number",
+    "invalidEmail": "Please enter a valid email address",
+    "minValue": "Value must be at least {{min}}",
+    "maxValue": "Value must be at most {{max}}",
+    "positiveNumber": "Value must be a positive number",
+    "nonNegativeNumber": "Value must be zero or greater",
+    "invalidFormat": "Invalid format",
+    "tooShort": "Input is too short",
+    "tooLong": "Input is too long"
+  },
+  "loading": {
+    "pleaseWait": "Please wait...",
+    "loading": "Loading",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "processing": "Processing...",
+    "uploading": "Uploading...",
+    "downloading": "Downloading..."
+  }
+}

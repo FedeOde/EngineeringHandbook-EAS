@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Engineering Pocket Helper",
+    "slug": "engineering-pocket-helper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.engineeringpockethelper",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.engineeringpockethelper",
+      "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0b1d5e21-d8ca-4554-9e3b-d76cc35110ef"
+      }
+    }
+  }
+}
